@@ -2,6 +2,7 @@
 
 <html>
  <head  land = "es">
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
    <meta charset = "iso-8559-1"/>
    <meta name ="description" content="Distibuidora de cauchos y repuestos"/>
@@ -36,9 +37,10 @@
 </nav>
 
 <aside id ="barralateral">
-  <blockquote>Primer elemento</blockquote>
-  <blockquote>Segundo elemento</blockquote>
-  <blockquote>Tercer elemento</blockquote>
+  <blockquote>Agregar cliente</blockquote>
+  <blockquote>Eliminar cliente</blockquote>
+  <blockquote>Modificar cliente</blockquote>
+  <p>(Estos serian botones para modificar el cliente seleccionado)</p>
 </aside>
 
 <section id ="contenidoprincipal">
@@ -48,16 +50,17 @@
   <header>
     <hgroup>
     <h2>Clientes</h2>
-    <h3>Aqui saldria una lista de todos los clientes. Tambien se pueden filtrar la busqueda</h3>
+    <h3>Aqui saldria una lista de algunos clientes, podrian ser los mas buscados</h3>
     </hgroup>
   </header>
 
   <form>
-    <div>
-      <input type="search" id="buscarcliente" name="q"
-      placeholder="Busca un cliente" size="30">
-      <button>Search</button>
-    </div>
+
+      <div>
+        <input type="search" id="buscarcliente" name="q" placeholder="Buscar un cliente" size="30" class = "search">
+        <button class = "button1">Buscar</button>
+
+      </div>
   </form>
 </article>
 
@@ -70,7 +73,7 @@
   <p><strong>Mail: example@example.com</strong></p>
   <time datetime="2017/09/03" pubdate> cliente desde 9/99/9999 </time>
 <footer>
-   <p>Comentarios cualquieras</p>
+   <p>Seccion de comentarios personales acerca del cliente (Puede o no estar)</p>
 </footer>
 </article>
 
@@ -83,7 +86,7 @@
   <p><strong>Mail: example@example.com</strong></p>
   <time datetime="2017/09/03" pubdate> cliente desde 9/99/9999 </time>
 <footer>
-   <p>Comentarios cualquieras</p>
+   <p>Seccion de comentarios personales acerca del cliente (Puede o no estar)</p>
 </footer>
 </article>
 
@@ -94,7 +97,7 @@
   <p><strong>Mail: example@example.com</strong></p>
   <time datetime="2017/09/03" pubdate> cliente desde 9/99/9999 </time>
 <footer>
-   <p>Comentarios cualquieras</p>
+   <p>Seccion de comentarios personales acerca del cliente (Puede o no estar)</p>
 </footer>
 </article>
 
@@ -105,7 +108,7 @@
   <p><strong>Mail: example@example.com</strong></p>
   <time datetime="2017/09/03" pubdate> cliente desde 9/99/9999 </time>
 <footer>
-   <p>Comentarios cualquieras</p>
+   <p>Seccion de comentarios personales acerca del cliente (Puede o no estar)</p>
 </footer>
 </article>
 
@@ -116,6 +119,7 @@
 <footer id ="pieprincipal">
   <small>
   Derechos reservados. Distribuidora tal. <address>telf +599999999999</adress>
+    <p>Informacion acerca de la empresa que pueden ver los que no han iniciado secion</p>
   </small>
 </footer>
 

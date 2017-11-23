@@ -8,6 +8,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(14050
 background-position:bottom right;
 background-size: 60%;
 background-repeat:repeat;
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -29,25 +30,43 @@ background-repeat:repeat;
  }
 
  #barralateral {
-   background-color:#A9F5E1;
+   background-color:#AFEEC9;
    float: left;
    height: 100%;
    width: 15%;
  }
+ #iniciodesesion {
+   float: left;
+   height: 100%;
+   width: 15%;
+   border-left: 5px;
+ }
 
-  #cuerpoprincipal , #cabeceraweb{
-  border-radius: 10px 10px 5px 5px;
-}
+
 
  #contenidoprincipal {
-   background-color: white;
    width: 85%;
    /*margin-left: 250px;
    padding-left: 20px;*/
    float:left;
  }
+ #contenidoprincipalventas{
+   background-color: white;
+   width: 100%;
+   float:left;
+ }
 
 
+#contenidoprincipal,#contenidoprincipalventas,#cabeceraweb{
+ background: rgba(242,246,248,1);
+background: -moz-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 0%, rgba(181,198,208,1) 99%, rgba(224,239,249,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(0%, rgba(216,225,231,1)), color-stop(99%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+background: -webkit-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 0%, rgba(181,198,208,1) 99%, rgba(224,239,249,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 0%, rgba(181,198,208,1) 99%, rgba(224,239,249,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 0%, rgba(181,198,208,1) 99%, rgba(224,239,249,1) 100%);
+background: linear-gradient(135deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 0%, rgba(181,198,208,1) 99%, rgba(224,239,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+}
 
  #pieprincipal {
    clear:both;
@@ -68,7 +87,6 @@ h2 {
 }
 
 h1 {
-  font-family: 'Poiret One', cursive;
    font-size: 3em;
    text-align: center;
    margin-right: 80px;
@@ -81,6 +99,18 @@ a.button {
     text-decoration: none;
     color: initial;
 }
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 
 #iconoprincipal{
@@ -92,4 +122,39 @@ a.button {
 
 article {
    margin: 10px 50px 100px 20px;
+}
+#searchForm{
+    background-color:#4C5A65;
+    padding:50px 50px 30px;
+    margin:80px 0;
+    position:relative;
+
+    -moz-border-radius:16px;
+    -webkit-border-radius:16px;
+    border-radius:16px;
+}
+
+.search{
+background: #fafafa;
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(250,250,250)), color-stop(1, rgb(230,230,230)));
+background: -moz-linear-gradient( center top, rgb(250,250,250) 0%, rgb(230,230,230) 100%);
+border: 0;
+border-bottom: 1px solid #fff;
+border-right: 1px solid rgba(255,255,255,.8);
+font-size: 16px;
+margin: 4px;
+padding: 5px;
+width: 250px;
+border-radius: 17px;
+-webkit-border-radius: 17px;
+-moz-border-radius: 17px;
+box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+-moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+}
+.search:focus{
+outline: none;
+background: #fff;
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
 }
